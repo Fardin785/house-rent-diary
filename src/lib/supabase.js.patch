@@ -1,0 +1,11 @@
+--- src/lib/supabase.js
++++ src/lib/supabase.js
+@@ -1,3 +1,7 @@
++import { createClient } from '@supabase/supabase-js';
++import { getCurrentMonth, calculateElectricity } from './utils';
++
++const SUPABASE_URL = 'https://llovdxixsspqtposkgni.supabase.co';
++const SUPABASE_KEY = 'sb_publishable_Wwz2ffrIvdQ3opBOyehw0Q_cshXkCp8';
++
+ // We export a function to check if initialized so components can fallback to demo mode
+ export function isSupabaseConfigured() {
