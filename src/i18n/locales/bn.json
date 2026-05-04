@@ -4,7 +4,16 @@
     "dashboard": "ড্যাশবোর্ড",
     "tenants": "ভাড়াটিয়া",
     "records": "রেকর্ডস",
+    "utilityBills": "ইউটিলিটি বিল",
+    "costCalc": "খরচ ক্যালকুলেটর",
+    "familyLedger": "পারিবারিক লেজার",
     "installApp": "অ্যাপ ইনস্টল করুন"
+  },
+  "flats": {
+    "frontEast": "৫ম তলা (সামনে-পূর্ব)",
+    "frontWest": "৫ম তলা (সামনে-পশ্চিম)",
+    "backEast": "৫ম তলা (পিছনে-পূর্ব)",
+    "backWest": "৫ম তলা (পিছনে-পশ্চিম)"
   },
   "dashboard": {
     "title": "ড্যাশবোর্ড",
@@ -66,7 +75,7 @@
     "due": "বকেয়া",
     "placeholderReading": "যেমন: ১২০০",
     "placeholderName": "নাম লিখুন",
-    "placeholderFlat": "A-101",
+    "placeholderFlat": "ফ্ল্যাট নির্বাচন করুন...",
     "familyMembers": "পরিবারের সদস্য",
     "addFamilyMember": "+ সদস্য যোগ করুন",
     "memberName": "সদস্যের নাম",
@@ -85,7 +94,11 @@
     "uploadDoc": "ডকুমেন্ট আপলোড করতে ক্লিক করুন",
     "changePhoto": "ছবি পরিবর্তন করুন",
     "memberAge": "বয়স",
-    "placeholderAge": "বয়স"
+    "placeholderAge": "বয়স",
+    "status": "ভাড়াটিয়ার বর্তমান অবস্থা",
+    "placeholderRent": "যেমন: ৫০০০",
+    "statusActive": "বর্তমান ভাড়াটিয়া",
+    "statusLeft": "ফ্ল্যাট ছেড়েছেন"
   },
   "actions": {
     "edit": "এডিট",
@@ -95,7 +108,8 @@
     "saveTenant": "সেভ করুন",
     "saveRecord": "সেভ করুন",
     "cancel": "বাতিল",
-    "confirm": "নিশ্চিত করুন"
+    "confirm": "নিশ্চিত করুন",
+    "download": "ডাউনলোড"
   },
   "modals": {
     "confirmDelete": "ডিলিট নিশ্চিত করুন",
@@ -137,5 +151,52 @@
     "status": "অবস্থা:",
     "fullyPaid": "সম্পূর্ণ পরিশোধিত ✓",
     "footer": "বাড়ি ভাড়ার ডায়েরি দ্বারা জেনারেট করা হয়েছে — ভাড়াটিয়া এবং বিদ্যুৎ ম্যানেজার"
+  },
+  "costCalc": {
+    "title": "মাসিক খরচ ক্যালকুলেটর",
+    "subtitle": "মাসিক বাড়ির খরচ হিসাব এবং বণ্টন করুন",
+    "commonCosts": "সাধারণ বাড়ির খরচ",
+    "totalCommonRent": "মোট সাধারণ ভাড়ার ফান্ড",
+    "remainingFund": "অবশিষ্ট ফান্ড",
+    "addItem": "আইটেম যোগ করুন",
+    "itemName": "আইটেমের নাম",
+    "total": "মোট",
+    "perPerson": "প্রতি জন",
+    "totalWaterBill": "মোট পানি বিল",
+    "waterBill": "পানি বিল",
+    "gasBill": "গ্যাস বিল",
+    "summary": "প্রতি সদস্যের খরচ সারাংশ",
+    "member": "সদস্য",
+    "commonShare": "সাধারণ ভাগ",
+    "totalPayable": "মোট প্রদেয়",
+    "grandTotal": "সর্বমোট"
+  },
+  "ledger": {
+    "title": "পারিবারিক হিসাব বিবরণী",
+    "subtitle": "প্রতিটি সদস্যের মাসিক বকেয়া এবং পরিশোধের তালিকা",
+    "details": "লেজার বিস্তারিত",
+    "selectMember": "সদস্য নির্বাচন করুন:",
+    "totalBilled": "মোট বিল করা হয়েছে",
+    "totalPaid": "মোট পরিশোধ",
+    "totalDue": "সর্বমোট বকেয়া",
+    "amountPaid": "পরিমাণ (পেইড)",
+    "paidInFull": "সম্পূর্ণ পরিশোধ",
+    "monthDue": "মাসের বকেয়া"
+  },
+  "utility": {
+    "title": "ইউটিলিটি বিল",
+    "subtitle": "পানি, গ্যাস এবং অন্যান্য বিলের রসিদ পরিচালনা করুন",
+    "uploadNew": "নতুন ডকুমেন্ট আপলোড করুন",
+    "selectMonth": "মাস নির্বাচন করুন",
+    "billType": "বিলের ধরন",
+    "waterBill": "পানি বিল",
+    "gasBill": "গ্যাস বিল",
+    "electricBill": "বিদ্যুৎ বিল",
+    "otherBill": "অন্যান্য",
+    "file": "ফাইল নির্বাচন করুন",
+    "uploading": "আপলোড হচ্ছে...",
+    "uploadBtn": "আপলোড করুন",
+    "noDocs": "এখনও কোনও ইউটিলিটি ডকুমেন্ট আপলোড করা হয়নি।",
+    "listTitle": "আপলোড করা ডকুমেন্ট"
   }
 }
